@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crypto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="bootstrap-icons/bootstrap-icons.css">
+  <link rel="stylesheet" href="loader.css">
+</head>
+<body>
+
+  <div class='header'>
+    <div class="container">
+      <a href="index.html">
+        <img src="images/logo.png" alt="logo"/>
+      </a>
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="marketplace.html">Market Place</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <i class="bi bi-x hamburger" onClick="closeMenu()"></i>
+      </ul>
+      <div class="btn-group">
+        <a href=""><button class='btn'>Login</button></a>
+      </div>
+      <i class="bi bi-list hamburger" onClick="openMenu()"></i>
+    </div>
+  </div>
+
+  <!------------- HEADER BANNER --------->
+  <div id="header-banner" class="container-m2">
+    <h2>#Stay Home</h2>
+    <h5>
+      All Wears, Cosmetics & Accessories
+    </h5>
+  </div>
+
+  <!-- --------- PRODUCT SECTION -------- -->
+
+  <div id="product1" class="container-p1">
+    <h1>Featured Products</h1>
+    <p class="product-title">New Collection and Affordable</p>
+    <div class="product-container">
+      <div class="product-card" onclick="window.location.href='page1.html'">
+        <img src="images/curtain.jpg">
+        <div class="label">
+          <span>silk</span>
+          <h5>Black Curtain</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$90.50</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <div class="product-card" onclick="window.location.href='page2.html'">
+        <img src="images/towel.jpg">
+        <div class="label">
+          <span>Towel</span>
+          <h5>Cotton Towel 3 set</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$55</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <div class="product-card" onclick="window.location.href='page3.html'">
+        <img src="images/T-shirt.jpg">
+        <div class="label">
+          <span>Adidas</span>
+          <h5>Blue T-shirt</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$35</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <div class="product-card" onclick="window.location.href='page4.html'">
+        <img src="images/bowl.jpg">
+        <div class="label">
+          <span>Bowl</span>
+          <h5>floral-mixing-bowl-set</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$70</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <!-- <div class="product-card">
+        <img src="images/towel.jpg">
+        <div class="label">
+          <span>Towel</span>
+          <h5>Cotton Towel 3 set</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$105</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <div class="product-card">
+        <img src="images/sunglasses1.jpg" height="227">
+        <div class="label">
+          <span>Adidas</span>
+          <h5>sunglasses</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$55</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <div class="product-card">
+        <img src="images/toaster.jpg" height="227">
+        <div class="label">
+          <span>Taster</span>
+          <h5>Black</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$45</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div>
+      <div class="product-card">
+        <img src="images/blue-shirt.jpg">
+        <div class="label">
+          <span>Nike</span>
+          <h5>Blue T-shirt</h5>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+          </div>
+          <h5>$55</h5>
+        </div>
+        <a href="/"><i class="bi bi-cart cart"></i></a>
+      </div> -->
+    </div>
+  </div>
+
+  <!---------- BANNER SECTION ------------>
+  <!-- <div id="banner" class="container-m1">
+    <h5>Our Services</h5>
+    <h2>
+      Up to <span>10% Off</span> - All T-Shirts & Accessories
+    </h2>
+    <button class="btn2">Explore More</button>
+  </div> -->
+
+
+  <!---------- PRODUCT3 SECTION ------------>
+  <div id="sm-banner" class="container-p1">
+    <div class="banner-box">
+      <h5>Crazy deals</h5>
+      <h3>buy 1 get 1 free</h3>
+      <span>The best classic dress is on sale at Thrive</span>
+      <button class="btn2">Learn More</button>
+    </div>
+    <div class="banner-box banner-box2">
+      <h5>Sure deals</h5>
+      <h3>upcoming accessories</h3>
+      <span>The best gadget is on sale at Thrive</span>
+      <button class="btn2">Collection</button>
+    </div>
+  </div>
+
+  <!---------- PRODUCT3 SECTION2 ------------>
+  <div id="banner3">
+    <div class="banner-box">
+      <h3>ACCESSORIES</h3>
+      <h5>Best collection -3% Off</h5>
+    </div>
+    <div class="banner-box banner-box2">
+      <h3>T-SHIRT</h3>
+      <h5>Best collection -5% Off</h5>
+    </div>
+    <div class="banner-box banner-box3">
+      <h3>COSMETICS</h3>
+      <h5>Best collection -3% Off</h5>
+    </div>
+  </div>
+
+  <!---------- NEWSLETTER SECTION ------------>
+  <div id="newsletter" class="container-p1 container-m1">
+    <div class="class">
+      <h4>Sign Up For Newsletter</h4>
+      <p>
+        Get E-mail updates about our latest products and 
+        <span>special offer</span> 
+      </p>
+    </div>
+    <div class="form">
+      <input
+        class="input2"
+        type="email"
+        placeholder='Email address'
+      />
+      <button class='btn'>Sign up</button>
+    </div>
+  </div>
+
+  <!------------ FOOTER SECTION ------------>
+  <div class='footer'>
+    <p>Get in touch</p>
+    <div class="social-icon">
+      <a href="/"><i class="bi bi-facebook icon"></i></a>
+      <a href="/"><i class="bi bi-github icon"></i></a>
+      <a href="/"><i class="bi bi-linkedin icon"></i></a>
+    </div>
+
+    <div class="app">
+      <a href="">
+        <img src="images/app-store-icon.png" alt="app-store">
+      </a>
+      <a href="">
+        <img src="images/playstore1.png" alt="play-store">
+      </a>
+    </div>
+    <div class="container">
+      <div class="col">
+        <h5>Company</h5>
+        <span class='bar'></span>
+          <a href="/">Product Updates</a>
+          <a href="/">Pricing</a>
+          <a href="/">Career</a>
+      </div>
+      <div class="col">
+        <h5>Support</h5>
+        <span class='bar'></span>
+          <a href="/">Chat</a>
+          <a href="/">Help Center</a>
+          <a href="/">FAQ</a>
+      </div>
+      <div class="col">
+        <h5>Explore</h5>
+        <span class='bar'></span>
+          <a href="/">Crypto Tracker</a>
+          <a href="/">Thrive Token Debit card</a>
+          <a href="/">Earn</a>
+          <a href="/">Crypto News</a>
+          <a href="/">Blog</a>
+      </div>
+      <div class="col">
+        <h5>Quick Link</h5>
+        <span class='bar'></span>
+          <a href="/">Home</a>
+          <a href="/">About</a>
+          <a href="/">Market</a>
+          <a href="/">Product</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let navMenu = document.querySelector(".nav-menu");
+
+    function openMenu(){
+      navMenu.style.right = "0";
+    }
+
+    function closeMenu(){
+      navMenu.style.right = "-250px";
+    }
+  </script>
+
+  <script src="index.js"></script>
+  <script src="loader.js"></script>
+</body>
+</html>
